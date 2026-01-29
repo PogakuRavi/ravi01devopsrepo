@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: facebook
-  replicas: 3  
+  replicas: 2  
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: devopshubg333/batch15d:python_flaskapp
+          image: devopshubg333/batch16d:fb_httpd
           ports:
             - containerPort: 8080
       
