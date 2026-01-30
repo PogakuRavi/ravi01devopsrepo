@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: ravikumar159/ravidevops159:tagname
+          image: ravikumar159/ravidevops159:11
           ports:
             - containerPort: 8080
       
